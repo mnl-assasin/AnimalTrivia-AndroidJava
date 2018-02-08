@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animal Trivia</string>
+
+    <string name="category1">Amphibians</string>
+    <string name="category2">Birds</string>
+    <string name="category3">Fishes</string>
+    <string name="category4">Mammals</string>
+    <string name="category5">Reptiles</string>
+
+</resources>
