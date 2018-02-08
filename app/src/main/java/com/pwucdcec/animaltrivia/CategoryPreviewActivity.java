@@ -72,7 +72,11 @@ public class CategoryPreviewActivity extends AppCompatActivity implements View.O
                         Bundle extras = new Bundle();
                         extras.putInt(Const.BUNDLEKEY_CATEGORY, category);
                         extras.putInt(Const.BUNDLEKEY_INDEX, index + 1);
-                        startActivity(new Intent(getApplicationContext(), GameActivity.class).putExtras(extras));
+
+                        if (items.get(index).getIsSolved() == 0)
+                            startActivity(new Intent(getApplicationContext(), GameActivity.class).putExtras(extras));
+                        else
+                            startActivity(new Intent(getApplicationContext(), AnimalInformationActivity.class).putExtras(extras));
                     }
                 });
 

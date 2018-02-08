@@ -1,6 +1,7 @@
 package com.pwucdcec.animaltrivia;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
@@ -103,6 +104,7 @@ public class GameActivity extends AppCompatActivity {
         // Answer Correct;
         if (i == tempAnswer) {
 
+            startActivity(new Intent(this, AnimalInformationActivity.class).putExtras(extras));
             DatabaseHelper.updateAnimals(this, item.getCategory(), item.getId());
             finish();
 
