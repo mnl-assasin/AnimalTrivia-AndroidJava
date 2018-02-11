@@ -21,7 +21,7 @@ import butterknife.BindView;
 import butterknife.BindViews;
 import butterknife.ButterKnife;
 
-public class GameActivity extends AppCompatActivity {
+public class  GameActivity extends AppCompatActivity {
 
     String TAG = "LOG_" + GameActivity.class.getSimpleName();
 
@@ -63,7 +63,9 @@ public class GameActivity extends AppCompatActivity {
         int index = extras.getInt(Const.BUNDLEKEY_INDEX);
 
         container.setBackgroundResource(Const.GAME_BACKGROUND[category]);
+
         item = DatabaseHelper.getAnimalItem(this, category, index);
+
         Log.d(TAG, "Name: " + item.getName() + " Drawable: " + item.getDrawable());
 
         Picasso.with(this).load(item.getDrawable()).into(imageView);

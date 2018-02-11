@@ -398,6 +398,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put("isSolved", 1);
         db.update(TABLE_NAME, values, "category =? AND id =?", new String[]{String.valueOf(category), String.valueOf(id)});
 
+    }
 
+    public static String getProgress(Context ctx, int category) {
+        SQLiteDatabase db = getWritableSQL(ctx);
+        Cursor cursor = db.query(TABLE_NAME, null, "category =? AND isSolved =?", new String[]{String.valueOf(category), "1"}, null, null, null);
+
+        return String.format("2d", cursor.getCount()) + " / 20";
     }
 }

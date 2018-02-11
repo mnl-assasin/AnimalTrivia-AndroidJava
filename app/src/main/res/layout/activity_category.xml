@@ -32,6 +32,24 @@
             android:textColor="@color/textColorWhite"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/progressAmphibians"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/ic_star"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="01/20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold" />
+
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -56,6 +74,23 @@
             android:paddingTop="8dp"
             android:text="@string/category2"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/progressBirds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/ic_star"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="01/20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/textColorWhite"
             android:textStyle="bold" />
 
@@ -86,6 +121,23 @@
             android:textColor="@color/textColorWhite"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/progressFish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/ic_star"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="01/20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -113,6 +165,23 @@
             android:textColor="@color/textColorWhite"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/progressMammals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/ic_star"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="01/20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -137,6 +206,23 @@
             android:paddingTop="8dp"
             android:text="@string/category5"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/progressReptiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/ic_star"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="01/20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/textColorWhite"
             android:textStyle="bold" />
 

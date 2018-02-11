@@ -36,7 +36,6 @@ public class CategoryPreviewActivity extends AppCompatActivity implements View.O
         setContentView(R.layout.activity_category_preview);
         ButterKnife.bind(this);
 
-
     }
 
     @Override

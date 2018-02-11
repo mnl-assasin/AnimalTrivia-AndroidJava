@@ -31,7 +31,7 @@ public class AnimalInformationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_animal_information);
         ButterKnife.bind(this);
 
-        initData();
+//        initData();
     }
 
     private void initData() {
